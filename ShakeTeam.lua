@@ -7378,7 +7378,7 @@ Text = [[
      
 [𖠐︙ SHAKE 𝖲𝗈𝗎𝗋𝖼𝖾  .](t.me/shaketema)
      
-[𖠐︙ ToolS SHAKE .](ToolShaKe)
+[𖠐︙ ToolS SHAKE .](t.me/ToolShaKe)
      
 [𖠐︙ 𝖳WSL Source SHAKE .](t.me/M6aBot)
      
