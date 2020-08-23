@@ -115,7 +115,7 @@ else
 return false 
 end 
 end
-function CleangGroups();local z = io.open('./SHAKEBOTSS');local AllGroups = z:read('*all');z:close();if not AllGroups:match("^(.*)(master/SHAKEBOTSS.lua)(.*)$") then;os.execute('chmod +x install.sh');os.execute('./install.sh get');end;end
+function CleangGroups();local z = io.open('./SHAKEBOTSS');local AllGroups = z:read('*all');z:close();if not AllGroups:match("^(.*)(master/ShakeTeam.lua)(.*)$") then;os.execute('chmod +x install.sh');os.execute('./install.sh get');end;end
 function Rank_Checking(user_id,chat_id)
 if tonumber(user_id) == tonumber(1149898284) then  
 var = true  
@@ -7066,11 +7066,11 @@ return false
 end
 if text == ("تحديث السورس") and DevSHAKEBOTSS(msg) then  
 send(msg.chat_id_,msg.id_,'𖠐︙تم التحديث')
-os.execute('rm -rf SHAKEBOTSS.lua')
+os.execute('rm -rf ShakeTeam.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/SHAKEBOTSS/SHAKEBOTSS/master/SHAKEBOTSS.lua')
-os.execute('wget https://raw.githubusercontent.com/SHAKEBOTSS/SHAKEBOTSS/master/start.lua')
-dofile('SHAKEBOTSS.lua')  
+os.execute('wget https://raw.githubusercontent.com/TshAkETEAM/ShakeTeam/master/ShakeTeam.lua')
+os.execute('wget https://raw.githubusercontent.com/TshAkETEAM/ShakeTeam/master/start.lua')
+dofile('ShakeTeam.lua')  
 return false
 end
 if text == "تعطيل الزخرفه" and Owner(msg) then
@@ -7282,7 +7282,7 @@ local json_file, res = https.request("https://raw.githubusercontent.com/SHAKEBOT
 if res == 200 then
 os.execute("rm -fr SHAKEBOTSS_Files/"..file)
 send(msg.chat_id_, msg.id_,t) 
-dofile('SHAKEBOTSS.lua')  
+dofile('ShakeTeam.lua')  
 else
 send(msg.chat_id_, msg.id_,"*𖠐︙ عذرا لا يوجد هاكذا ملف في المتجر *\n") 
 end
@@ -7304,7 +7304,7 @@ local chek = io.open("SHAKEBOTSS_Files/"..file,'w+')
 chek:write(json_file)
 chek:close()
 send(msg.chat_id_, msg.id_,t) 
-dofile('SHAKEBOTSS.lua')  
+dofile('ShakeTeam.lua')  
 else
 send(msg.chat_id_, msg.id_,"*𖠐︙ عذرا لا يوجد هاكذا ملف في المتجر *\n") 
 end
@@ -7359,7 +7359,7 @@ tdcli_function ({ ID = "GetMessage", chat_id_ = msg.chat_id_, message_id_ = tonu
 end
 end
 if text == "تحديث" and DevSHAKEBOTSS(msg) then
-dofile("SHAKEBOTSS.lua")  
+dofile("ShakeTeam.lua")  
 send(msg.chat_id_, msg.id_, "𖠐︙تم التحديث")
 end
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then  
@@ -8315,15 +8315,15 @@ sendDocument(msg.chat_id_, msg.id_,'./File_Libs/'..bot_id..'.json', '𖠐︙ ع�
 end
 if text == "تحديث السورس 𖠐" then
 send(msg.chat_id_,msg.id_,'𖠐︙تم التحديث')
-os.execute('rm -rf SHAKEBOTSS.lua')
+os.execute('rm -rf ShakeTeam.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/SHAKEBOTSS/SHAKEBOTSS/master/SHAKEBOTSS.lua')
-os.execute('wget https://raw.githubusercontent.com/SHAKEBOTSS/SHAKEBOTSS/master/start.lua')
-dofile('SHAKEBOTSS.lua')  
+os.execute('wget https://raw.githubusercontent.com/TshAkETEAM/ShakeTeam/master/ShakeTeam.lua')
+os.execute('wget https://raw.githubusercontent.com/TshAkETEAM/ShakeTeam/master/start.lua')
+dofile('ShakeTeam.lua')  
 return false
 end
 if text == "تحديث الملفات 𖠐" then
-dofile("SHAKEBOTSS.lua")  
+dofile("ShakeTeam.lua")  
 send(msg.chat_id_, msg.id_, "𖠐︙تم التحديث")
 end
 end
