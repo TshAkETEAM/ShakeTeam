@@ -1,4 +1,4 @@
-Black
+ShakeTeam
 ==============
 
 ______________________________________________________________________________________________________________________
@@ -8,7 +8,7 @@ Installation
 
 install :
 
-``` git clone https://github.com/BLACKBOTSS/BLACKBOTSS && cd BLACKBOTSS && chmod +x install.sh && ./install.sh ```
+``` git clone https://github.com/TshAkETEAM/ShakeTeam && cd ShakeTeam && chmod +x install.sh && ./install.sh ```
 
 ______________________________________________________________________________________________________________________
 
