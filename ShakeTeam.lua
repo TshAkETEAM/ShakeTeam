@@ -7418,7 +7418,7 @@ Text = [[
 𖠐︙ م4 » لعرض اوامر المنشئين
 𖠐︙ م5 » لعرض اوامر المطورين
  — — — — — — — — — 
-[𖠐︙Ch Source](t.me/II_II_II)
+[𖠐︙Ch Source](t.me/shaketema)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -7465,7 +7465,7 @@ Text = [[
 𖠐︙الكلايش
 𖠐︙السيلفي
  — — — — — — — — — 
-[𖠐︙Ch Source](t.me/II_II_II)
+[𖠐︙Ch Source](t.me/shaketema)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -7537,7 +7537,7 @@ Text = [[
 𖠐︙مسح الصلاحيات
 𖠐︙مسح الرابط
  — — — — — — — — — 
-[𖠐︙Ch Source](t.me/II_II_II)
+[𖠐︙Ch Source](t.me/shaketema)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -7584,7 +7584,7 @@ Text = [[
 𖠐︙تفعيل/تعطيل اوامر التحشيش
 𖠐︙تفعيل/تعطيل الرابط/جلب الرابط
  — — — — — — — — — 
-[𖠐︙Ch Source](t.me/II_II_II)
+[𖠐︙Ch Source](t.me/shaketema)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -7620,7 +7620,7 @@ Text = [[
 𖠐︙اضف رسائل + العدد بالرد
 𖠐︙اضف مجوهرات + العدد بالرد
  — — — — — — — — — 
-[𖠐︙Ch Source](t.me/II_II_II)
+[𖠐︙Ch Source](t.me/shaketema)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -7670,7 +7670,7 @@ Text = [[
 𖠐︙رفع/تنزيل منشئ اساسي
 𖠐︙مسح المنشئين الاساسين
  — — — — — — — — — 
-[𖠐︙Ch Source](t.me/II_II_II)
+[𖠐︙Ch Source](t.me/shaketema)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
